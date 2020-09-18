@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot("1342433720:AAHz-6NJz4tWCF2_cdQdKlxjXZGI_xTRx6E", parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
+bot = telebot.TeleBot(Token, parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
